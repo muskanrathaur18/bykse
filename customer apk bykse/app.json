@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Bykse",
+    "slug": "bykse-customer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bykse.customer"
+    },
+    "android": {
+      "package": "com.bykse.customer",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#FFC107",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "170971cf-ba09-4f72-8143-f97a8d99c035"
+      }
+    },
+    "owner": "bykse"
+  }
+}
